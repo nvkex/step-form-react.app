@@ -27,7 +27,7 @@ class FromPersonalDetails extends Component {
                     <AppBar title="Enter Personal Details" />
                     <TextField
                         hintText="Enter Your Occupations"
-                        floatingLabelText="Cccupation"
+                        floatingLabelText="Occupation"
                         onChange={handleChange('occupation')}
                         defaultValue={values.occupation}
                     /><br />
