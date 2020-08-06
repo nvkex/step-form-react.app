@@ -4,7 +4,7 @@ import AppBar from 'material-ui/AppBar';
 import {List, ListItem} from 'material-ui/List';
 import { RaisedButton } from 'material-ui';
 
-class FromPersonalDetails extends Component {
+class Confirm extends Component {
 
     continue = e => {
         e.preventDefault();
@@ -74,4 +74,4 @@ const styles = {
     button: { margin: 15 }
 }
 
-export default FromPersonalDetails
+export default Confirm;
