@@ -29,8 +29,4 @@ class Success extends Component {
     }
 }
 
-const styles = {
-    button: { margin: 15 }
-}
-
 export default Success;
